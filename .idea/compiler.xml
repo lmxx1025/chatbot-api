@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-api-application" />
+        <module name="chatbot-api-domain" />
+        <module name="chatbot-api-interfaces" />
+        <module name="chatbot-api-infrastructure" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chat-api-application" target="8" />
+      <module name="chat-api-domain" target="8" />
+      <module name="chat-api-infrastructure" target="8" />
+      <module name="chat-api-interfaces" target="8" />
+      <module name="chatbot-api" target="8" />
+      <module name="chatbot-api-application" target="8" />
+      <module name="chatbot-api-domain" target="8" />
+      <module name="chatbot-api-infrastructure" target="8" />
+      <module name="chatbot-api-interfaces" target="8" />
+      <module name="chatgp-api-domain" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chat-api-application" options="-parameters" />
+      <module name="chat-api-domain" options="-parameters" />
+      <module name="chat-api-infrastructure" options="-parameters" />
+      <module name="chat-api-interfaces" options="-parameters" />
+      <module name="chatbot-api-application" options="-parameters" />
+      <module name="chatbot-api-domain" options="-parameters" />
+      <module name="chatbot-api-infrastructure" options="-parameters" />
+      <module name="chatbot-api-interfaces" options="-parameters" />
+      <module name="chatgp-api-domain" options="-parameters" />
+    </option>
+  </component>
+</project>
